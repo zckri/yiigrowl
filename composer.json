@@ -1,0 +1,22 @@
+{
+    "name"       : "joker7789/yiigrowl",
+    "description": "jGrowl notifications widget for Yii2 framework",
+    "type"       : "yii2-widget",
+    "keywords"   : ["yii2", "widget", "jgrowl", "alert", "notification","js", "css"],
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "zckri",
+            "email": "joker7789@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jgrowl": "*",
+    },
+    "autoload"   : {
+        "psr-4": {
+            "joker7789\\yiigrowl\\": ""
+        }
+    }
+}
